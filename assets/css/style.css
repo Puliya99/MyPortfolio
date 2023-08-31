@@ -1,0 +1,620 @@
+body{
+    overflow-x: hidden;
+    background: #B3BFC5;
+}
+
+header{
+    width: 100vw;
+    height: 4vw;
+    background: #6E96AE;
+    position: fixed;
+    display: flex;
+    z-index: 999;
+    top: 0;
+    left: 0;
+}
+
+header > img {
+    width: 12vw;
+    height: 8vh;
+    top: 1vh;
+    left: 1vw;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+header > nav>a {
+    top: 10px;
+    left: 400px;
+    position: relative;
+    font-size: 1.1em;
+    color: black;
+    text-decoration: none;
+    font-weight: 550;
+    margin-left: 40px;
+}
+
+#home{
+    position: relative;
+    height: 100vh;
+}
+
+#home>div:first-child>img{
+    position: absolute;
+    top: 20px;
+    right: 0;
+}
+
+#home>div:nth-child(2){
+    position: absolute;
+    left: 5vw;
+    top: 10vw;
+}
+
+#home>div:nth-child(2)>h1{
+    color: white;
+    -webkit-text-stroke: 1px #1F0B40;
+    font-family: Arial;
+}
+
+#home>div:nth-child(2)>h2{
+    color: #1F0B40;
+    font-family: Arial;
+}
+
+#home>div:nth-child(2)>input{
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    background: green;
+    color: white;
+}
+
+#home>div:nth-child(3){
+    position: absolute;
+    top: 35vw;
+    left: 5vw;
+}
+
+#home>div:nth-child(3)>a>img{
+    margin-right: 2vw;
+}
+
+#about{
+    position: relative;
+    height: 100vh;
+}
+
+#about>div>h1{
+    width: fit-content;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    top: 50px;
+    margin: auto;
+    color: #1F0B40;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+#about>div>p{
+    top: 100px;
+    position: absolute;
+}
+
+#about>div>img{
+    top: 250px;
+    left: 50px;
+    position: absolute;
+    border-radius: 100%;
+}
+
+#about>div>h4{
+    top: 450px;
+    left: 50px;
+    position: absolute;
+    color: #1F0B40;
+    font-size: 22px;
+    font-family: Arial;
+}
+
+#about>div>h5{
+    top: 470px;
+    left: 50px;
+    position: absolute;
+    color: white;
+    -webkit-text-stroke: 1px #1F0B40;
+    font-size: 22px;
+    font-family: Arial;
+}
+
+#about>div>#educationPic{
+    top: 170px;
+    left: 350px;
+    position: absolute;
+    width: 75px;
+    height: 75px;
+}
+
+#about>div>a{
+    top: 250px;
+    left: 340px;
+    position: absolute;
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+#about>div>#skillPic{
+    top: 470px;
+    left: 510px;
+    position: absolute;
+    width: 75px;
+    height: 75px;
+}
+
+#about>div>#skillA{
+    top: 430px;
+    left: 520px;
+    position: absolute;
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+#about>div>#experiencePic{
+    top: 310px;
+    left: 950px;
+    position: absolute;
+    width: 75px;
+    height: 75px;
+}
+
+#about>div>#experienceA{
+    top: 320px;
+    left: 800px;
+    position: absolute;
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: Arial;
+}
+
+#about>div>#arrowPic{
+    top: 270px;
+    left: 250px;
+    position: absolute;
+    width: 550px;
+    height:150px;
+    border-radius: 0;
+}
+
+#educationSec{
+    position: relative;
+    height: 100vh;
+}
+
+#educationSec>div>h4{
+    top: 30px;
+    position: absolute;
+    color: #1F0B40;
+    font-size: 22px;
+    font-family: Arial;
+}
+
+#educationSec>div>img{
+    top: 100px;
+    left: 70px;
+    position: absolute;
+    width: 150px;
+    height: 110px;
+}
+
+#educationSec>div>#aquinas{
+    top: 100px;
+    left: 260px;
+    position: absolute;
+    width: 150px;
+    height: 110px;
+}
+
+#educationSec>div>#wijeya{
+    top: 100px;
+    left: 460px;
+    position: absolute;
+    width: 150px;
+    height: 110px;
+}
+
+#educationSec>div>#japura{
+    top: 100px;
+    left: 640px;
+    position: absolute;
+    width: 150px;
+    height: 110px;
+}
+
+#educationSec>div>#ijse{
+    top: 100px;
+    left: 840px;
+    position: absolute;
+}
+
+#educationSec>div>#yearone{
+    top: 180px;
+    left: 120px;
+    position: absolute;
+    color: white;
+    font-size: 16px;
+}
+
+#educationSec>div>#yeartwo{
+    top: 180px;
+    left: 320px;
+    position: absolute;
+    color: white;
+    font-size: 16px;
+}
+
+#educationSec>div>#yearthree{
+    top: 180px;
+    left: 510px;
+    position: absolute;
+    color: white;
+    font-size: 16px;
+}
+
+#educationSec>div>#yearfour{
+    top: 180px;
+    left: 690px;
+    position: absolute;
+    color: white;
+    font-size: 16px;
+}
+
+#educationSec>div>#yearfive{
+    top: 180px;
+    left: 890px;
+    position: absolute;
+    color: white;
+    font-size: 16px;
+}
+
+#educationSec>div>#arrow{
+    top: 240px;
+    left: 80px;
+    width: 900px;
+    height:100px;
+    position: absolute;
+}
+
+#educationSec>div>#yearsix{
+    top: 310px;
+    left: 120px;
+    color: white;
+    font-size: 16px;
+    position: absolute;
+}
+
+#educationSec>div>#yearseven{
+    top: 310px;
+    left: 320px;
+    color: white;
+    font-size: 16px;
+    position: absolute;
+}
+
+#educationSec>div>#yeareight{
+    top: 310px;
+    left: 510px;
+    color: white;
+    font-size: 16px;
+    position: absolute;
+}
+
+#educationSec>div>#yearnine{
+    top: 310px;
+    left: 690px;
+    color: white;
+    font-size: 16px;
+    position: absolute;
+}
+
+#educationSec>div>#yearten{
+    top: 310px;
+    left: 880px;
+    color: white;
+    font-size: 16px;
+    position: absolute;
+}
+
+#educationSec>div>#schoolAbout{
+    top: 380px;
+    left: 50px;
+    width: 150px;
+    height: 190px;
+    position: absolute;
+    padding: 10px;
+    border: 2px solid #1B6490;
+}
+
+#educationSec>div>#aquinasCollege{
+    top: 380px;
+    left: 250px;
+    width: 150px;
+    height: 190px;
+    position: absolute;
+    padding: 10px;
+    border: 2px solid #1B6490;
+}
+
+#educationSec>div>#wijeyagraphic{
+    top: 380px;
+    left: 450px;
+    width: 150px;
+    height: 190px;
+    position: absolute;
+    padding: 10px;
+    border: 2px solid #1B6490;
+}
+
+#educationSec>div>#japuraUni{
+    top: 380px;
+    left: 650px;
+    width: 150px;
+    height: 190px;
+    position: absolute;
+    padding: 10px;
+    border: 2px solid #1B6490;
+}
+
+#educationSec>div>#ijsePanadura{
+    top: 380px;
+    left: 850px;
+    width: 150px;
+    height: 190px;
+    position: absolute;
+    padding: 10px;
+    border: 2px solid #1B6490;
+}
+
+#skillsec{
+    position: relative;
+    height: 100vh;
+}
+
+#skillsec>div>h4{
+    top: 30px;
+    position: absolute;
+    color: #1F0B40;
+    font-size: 22px;
+    font-family: Arial;
+}
+
+#skillsec>div>#skillone{
+    top: 100px;
+    left: 50px;
+    position: absolute;
+}
+
+#skillsec>div>#skilltwo{
+    top: 100px;
+    left: 200px;
+    position: absolute;
+}
+
+#skillsec>div>#skillthree{
+    top: 100px;
+    left: 350px;
+    position: absolute;
+}
+
+#skillsec>div>#skillfoure{
+    top: 100px;
+    left: 500px;
+    position: absolute;
+}
+
+#skillsec>div>#skillfive{
+    top: 100px;
+    left: 650px;
+    position: absolute;
+}
+
+#skillsec>div>#skillsix{
+    top: 100px;
+    left: 800px;
+    position: absolute;
+}
+
+#skillsec>div>#skillseven{
+    top: 100px;
+    left: 950px;
+    position: absolute;
+}
+
+#skillsec>div>#skilleight{
+    top: 200px;
+    left: 50px;
+    position: absolute;
+}
+
+#skillsec>div>#skillnine{
+    top: 200px;
+    left: 200px;
+    position: absolute;
+}
+
+#skillsec>div>#skillten{
+    top: 200px;
+    left: 350px;
+    position: absolute;
+}
+
+#skillsec>div>#skilleleven{
+    top: 200px;
+    left: 500px;
+    position: absolute;
+}
+
+#skillsec>div>#skilltowell{
+    top: 200px;
+    left: 650px;
+    position: absolute;
+}
+
+#skillsec>div>#skillthirty{
+    top: 200px;
+    left: 800px;
+    position: absolute;
+}
+
+#skillsec>div>#skillfourty{
+    top: 200px;
+    left: 950px;
+    position: absolute;
+}
+
+#skillsec>div>#experience{
+    top: 250px;
+    position: absolute;
+    color: #1F0B40;
+    font-size: 22px;
+    font-family: Arial;
+}
+
+#skillsec>div>#sarvodaya{
+    top: 300px;
+    left: 200px;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+
+#skillsec>div>#date{
+    top: 360px;
+    left: 230px;
+    font-size: 16px;
+    color: white;
+    position: absolute;
+}
+
+#skillsec>div>#workArrow{
+    top: 410px;
+    left: 50px;
+    position: absolute;
+}
+
+#skillsec>div>#dateTwo{
+    top: 440px;
+    left: 230px;
+    font-size: 16px;
+    color: white;
+    position: absolute;
+}
+
+#skillsec>div>#work{
+    top: 500px;
+    left: 170px;
+    width: 150px;
+    height: 50px;
+    position: absolute;
+    padding: 10px;
+    font-size: 10px;
+    border: 2px solid #1B6490;
+}
+
+#serviceSec{
+    position: relative;
+    height: 100vh;
+}
+
+#serviceSec>div>#service{
+    width: fit-content;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    top: 60px;
+    margin: auto;
+    color: #1F0B40;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+#serviceSec>div>#heading{
+    top: 100px;
+    left: 50px;
+    position: absolute;
+}
+
+#serviceSec>div>#web{
+    top: 150px;
+    left: 50px;
+    position: absolute;
+}
+
+#serviceSec>div>#mobile{
+    top: 150px;
+    left: 400px;
+    position: absolute;
+}
+
+#serviceSec>div>#software{
+    top: 150px;
+    left: 750px;
+    position: absolute;
+}
+
+#serviceSec>div>#uiUx{
+    top: 370px;
+    left: 230px;
+    position: absolute;
+}
+
+#serviceSec>div>#graphic{
+    top: 370px;
+    left: 550px;
+    position: absolute;
+}
+
+#serviceSec>div>#webTopic{
+    top: 300px;
+    left: 100px;
+    font-size: 18px;
+    position: absolute;
+}
+
+#serviceSec>div>#mobileTopic{
+    top: 300px;
+    left: 450px;
+    font-size: 18px;
+    position: absolute;
+}
+
+#serviceSec>div>#softwareTopic{
+    top: 300px;
+    left: 800px;
+    font-size: 18px;
+    position: absolute;
+}
+
+#serviceSec>div>#uiUxTopic{
+    top: 520px;
+    left: 300px;
+    font-size: 18px;
+    position: absolute;
+}
+
+#serviceSec>div>#graphicTopic{
+    top: 520px;
+    left: 600px;
+    font-size: 18px;
+    position: absolute;
+}
