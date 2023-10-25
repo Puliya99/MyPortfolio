@@ -19,12 +19,12 @@
 <header id="header">
         <img src="assets/img/logo.png" alt="logo">
         <nav id="web-nav">
-                <a href="#home"><b>Home</b></a>
-                <a href="#about"><b>About</b></a>
-                <a href="#serviceSec"><b>Service</b></a>
-                <a href="#workSec"><b>Work</b></a>
-                <a href="#gallery"><b>Gallery</b></a>
-                <a href="#contact"><b>Contact</b></a>
+                <a href="#home" id="homeClick"><b>Home</b></a>
+                <a href="#about" id="aboutClick"><b>About</b></a>
+                <a href="#serviceSec" id="serviceClick"><b>Service</b></a>
+                <a href="#workSec" id="workClick"><b>Work</b></a>
+                <a href="#gallery" id="galleryClick"><b>Gallery</b></a>
+                <a href="#contact" id="contactClick"><b>Contact</b></a>
         </nav>
 
         <div id="nav-icon-open" class="nav-icon">
@@ -47,9 +47,9 @@
 </header>
 
 <section id="home">
-    <div>
-        <div id="coverPhoto"></div>
-        <img src="assets/img/coverphoto.png" alt="">
+    <div class="images">
+        <img src="assets/img/back.png" alt="back" id="backImage" class="shape">
+        <img src="assets/img/coverphoto.png" alt="cover" id="cover" class="boy">
     </div>
     <div>
         <h1  data-aos="fade-right"> "Hello, I'm</h1>
@@ -82,9 +82,12 @@
             input to your company.
         </p>
         <img  src="assets/img/profilePic.jpg" alt="Profile pic">
-        <h4>Pulinda Mathagadeera</h4>
-        <h5>Fullstack Developer</h5>
-
+        <div class="typing">
+            <h4 class="typing-effect_one">Pulinda Mathagadeera</h4>
+        </div>
+        <div class="typing">
+            <h5 class="typing-effect_two">Fullstack Developer</h5>
+        </div>
         <img src="assets/img/education.png" alt="education" id="educationPic">
         <a href="#educationSec">Education</a>
 
@@ -129,25 +132,31 @@
         <h6 id="yearnine">2021</h6>
         <h6 id="yearten">During</h6>
 
-        <div id="schoolAbout" data-aos="flip-down">
+        <div id="schoolAbout" class="card">
+            <span class="ref"></span>
         <p>General Certificate of Education (Ordinary Level) - Isipathana College Colombo 05 (2015) General Certificate
             of Education (Advance Level) - Isipathana College Colombo 05 (2018)
         </p>
         </div>
 
-        <div id="aquinasCollege" data-aos="flip-down">
+
+        <div id="aquinasCollege" class="card">
+            <span class="ref"></span>
         <p>Diploma in English Language and Literature - Aquinas College of Higher Studies Colombo 08 (2019 -2020) </p>
         </div>
 
-        <div id="wijeyagraphic" data-aos="flip-down">
+        <div id="wijeyagraphic" class="card">
+            <span class="ref"></span>
         <p>Diploma In Multimedia - Wijeya Graphics Moratuwa (2019 - 2020)</p>
         </div>
 
-        <div id="japuraUni" data-aos="flip-down">
+        <div id="japuraUni" class="card">
+            <span class="ref"></span>
         <p>Advance Diploma in Computer Basic Account - University of Sri Jayewardenepura (2020 -2021) </p>
         </div>
 
-        <div id="ijsePanadura" data-aos="flip-down">
+        <div id="ijsePanadura" class="card">
+            <span class="ref"></span>
         <p>
             Graduate Diploma in Software Engineering - IJSE | Institute of Software Engineering Panadura (2022 -During)
         </p>
@@ -179,7 +188,8 @@
         <h6 id="date">2020</h6>
         <img src="assets/img/workArrow.png" alt="arrow" id="workArrow">
         <h6 id="dateTwo">2022</h6>
-        <div id="work" data-aos="flip-down">
+        <div id="work" class="card">
+            <span class="ref" id="refone"></span>
             <p>Internal Audit Assistant - Sarvodaya Shramadana Movement Headquarters (2020 - 2022)</p>
         </div>
     </div>
@@ -191,7 +201,7 @@
         software applications across various platforms. My technical expertise this service include.
     </p>
     <div class="wrapper">
-            <div class="card">
+            <div class="cards">
                 <div class="poster"><img src="assets/img/webDevelopment.jpg" alt="web"></div>
                 <div class="details">
                     <h1>Web Development</h1>
@@ -200,7 +210,7 @@
                     </p>
                 </div>
             </div>
-            <div class="card">
+            <div class="cards">
                 <div class="poster"><img src="assets/img/mobileApplication.png" alt="mobile"></div>
                 <div class="details">
                     <h1>Mobile Application</h1>
@@ -209,7 +219,7 @@
                     </p>
                 </div>
             </div>
-            <div class="card">
+            <div class="cards">
                 <div class="poster"><img src="assets/img/softwareApplication.jpg" alt="software"></div>
                 <div class="details">
                     <h1>Software Application</h1>
@@ -218,7 +228,7 @@
                     </p>
                 </div>
             </div>
-            <div class="card">
+            <div class="cards">
                 <div class="poster"><img src="assets/img/uiUxDesign.jpg" alt="uiUx"></div>
                 <div class="details">
                     <h1>UI/UX Design</h1>
@@ -227,7 +237,7 @@
                     </p>
                 </div>
             </div>
-            <div class="card">
+            <div class="cards">
                 <div class="poster"><img src="assets/img/graphicDesign.jpg" alt="graphic"></div>
                 <div class="details">
                     <h1>Graphic Design</h1>
@@ -255,42 +265,66 @@
             <div class="content">
                 <div class="page page1">
                     <div class="item">
-                        <img src="assets/img/Ass01.png" alt="" width="305" height="120">
+                        <a href="https://github.com/Puliya99/MyPortfolio/blob/master/Readme.md">
+                        <img src="assets/img/Ass01.png" alt="" width="305" height="120" class="assignPic">
+                        </a>
                     </div>
                     <div class="item">
-                        <img src="assets/img/Ass02.png" alt="" width="305" height="120">
+                        <a href="https://github.com/Puliya99/MyPortfolio/tree/struchure">
+                        <img src="assets/img/Ass02.png" alt="" width="305" height="120" class="assignPic">
+                        </a>
                     </div>
                     <div class="item">
-                        <img src="assets/img/Ass03.png" alt="" width="305" height="120">
+                        <a href="assignment_03.html">
+                            <img src="assets/img/Ass03.png" alt="" width="305" height="120" class="assignPic">
+                        </a>
                     </div>
                     <div class="item">
-                        <img src="assets/img/Ass04.png" alt="" width="305" height="120">
+                        <a href="assignment_04.html">
+                        <img src="assets/img/Ass04.png" alt="" width="305" height="120" class="assignPic">
+                        </a>
                     </div>
                     <div class="item">
-                        <img src="assets/img/Ass05.png" alt="" width="305" height="120">
+                        <a href="https://github.com/Puliya99/MyPortfolio/tree/style">
+                        <img src="assets/img/Ass05.png" alt="" width="305" height="120" class="assignPic">
+                        </a>
                     </div>
                     <div class="item">
-                        <img src="assets/img/Ass06.png" alt="" width="305" height="120">
+                        <a href="https://github.com/Puliya99/Assignment_06/tree/master">
+                        <img src="assets/img/Ass06.png" alt="" width="305" height="120" class="assignPic">
+                        </a>
                     </div>
                 </div>
                 <div class="page page2">
                     <div class="item">
-                        <img src="assets/img/Ass07.png" alt="" width="305" height="120">
+                        <a href="assets/assignment/Assignment_07/index.html">
+                        <img src="assets/img/Ass07.png" alt="" width="305" height="120" class="assignPic">
+                        </a>
                     </div>
                     <div class="item">
-                        <img src="assets/img/Ass08.png" alt="" width="305" height="120">
+                        <a href="assignment_08.html">
+                        <img src="assets/img/Ass08.png" alt="" width="305" height="120" class="assignPic">
+                        </a>
                     </div>
                     <div class="item">
-                        <img src="assets/img/Ass09.png" alt="" width="305" height="120">
+                        <a href="assignment_09.html">
+                        <img src="assets/img/Ass09.png" alt="" width="305" height="120" class="assignPic">
+                        </a>
                     </div>
                     <div class="item">
-                        <img src="assets/img/Ass10.png" alt="" width="305" height="120">
+                        <a href="">
+                        <img src="assets/img/Ass10.png" alt="" width="305" height="120" class="assignPic">
+                        </a>
                     </div>
                     <div class="item">
-                        <img src="assets/img/Ass11.png" alt="" width="305" height="120">
+                        <a href="assets/assignment/pos_system/index.html">
+                        <img src="assets/img/Ass11.png" alt="" width="305" height="120"class="assignPic">
+                        </a>
                     </div>
                     <div class="item">
-                        <img src="assets/img/Ass12.png" alt="" width="305" height="120">
+                        <a href="">
+                        <img src="assets/img/Ass12.png" alt="" width="305" height="120" class="assignPic">
+                        </a>
                     </div>
                 </div>
             </div>
@@ -371,24 +405,24 @@
     <img src="assets/img/location.png" alt="" id="location">
     <p id="address">50/19 7th Lane, Jubilee Road, Lakshapathiya, Moratuwa.</p>
     <img src="assets/img/gmail.png" alt="" id="gmail">
-    <p id="emailText">mathagadeerapulinda@gmail.com</p>
+    <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox"><p id="emailText">mathagadeerapulinda@gmail.com</p>
+    </a>
     <img src="assets/img/phone.png" alt="" id="phone">
+    <a href="tel:+94752101936">
     <p id="phoneNumber">+94 75 210 1936</p>
+    </a>
     <hr>
     <div class="mapouter">
         <div class="gmap_canvas">
             <iframe class="gmap_iframe" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
-                    src="https://maps.google.com/maps?width=800&amp;height=450&amp;hl=en&amp;q=50/19 7th Lane, Jubilee
+                    src="https://maps.google.com/maps?width=800&amp;height=400&amp;hl=en&amp;q=50/19 7th Lane, Jubilee
                     Road, Lakshapathiya, Moratuwa&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
             </iframe>
             <a href="https://connectionsgame.org/">Connections Puzzle</a>
         </div>
-        <style>.mapouter{position:relative;text-align:right;width:800px;height:450px;}.gmap_canvas {overflow:hidden;
-        background:none!important;width:800px;height:450px;}.gmap_iframe {width:800px!important;height:450px!important;}
-        </style>
     </div>
     <div id="form">
-        <lable for="emailInput">Email :</lable>
+        <lable for="emailInput" id="emailName">Email :</lable>
         <input type="email"id="emailInput" placeholder="@gmail.com"><br>
         <lable for="nameInput" id="nameLable">Name :</lable>
         <input type="text" id="nameInput" placeholder="Enter your name here..."><br>
@@ -398,13 +432,14 @@
         <textarea type="text" id=message cols="50" rows="10" name="message" placeholder="Comment..."></textarea><br>
         <button id="btnSend">Send</button>
     </div>
+    <footer>
+        <img src="assets/img/logo.png" alt="logo" width="50" height="50" id="footerImg">
+        <p>Copyright © 2023 Pulinda Mathagadeera. All rights reserved.</p>
+    </footer>
+
 </div>
 </section>
 
-<footer>
-    <img src="assets/img/logo.png" alt="logo" width="50" height="50" id="footerImg">
-    <p>Copyright © 2023 Pulinda Mathagadeera. All rights reserved.</p>
-</footer>
 
 
 
