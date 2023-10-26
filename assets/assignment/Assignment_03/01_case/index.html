@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment 03 Case 01</title>
+    <link rel="stylesheet" href="assets/css/normalize.css">
+
+    <style>
+        .circle{
+            height: 200px;
+            width: 200px;
+            background-color: white;
+            border-radius: 360px;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+        }
+
+        .round{
+            height: 200px;
+            width: 200px;
+        }
+
+        .square{
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+        }
+
+        section{
+            width: 50%;
+            height: 50%;
+            position: absolute;
+        }
+
+        div{
+            height: 100px;
+            width: 100px;
+            background-color: red;
+            position: absolute;
+        }
+
+        #topL{
+            background-color: red;
+            left: 0;
+        }
+
+        #topR{
+            background-color: green;
+            right: 0;
+        }
+
+        #bottomL{
+            background-color: orange;
+            bottom: 0;
+            left: 0;
+        }
+
+        #bottomR{
+            background-color: deeppink;
+            bottom: 0;
+            right: 0;
+        }
+
+        #squareS{
+            border-radius: 0;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+        }
+
+        #roundD{
+            border-radius: 360px;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+        }
+
+        #upM{
+            top:calc(0% - 100px);
+            left: calc(50% - 100px);
+            background-color: white;
+            border-radius: 360px;
+        }
+
+        #upL{
+            top:calc(0% - 100px);
+            left: calc(0% - 100px);
+            background-color: white;
+            border-radius: 360px;
+        }
+
+        #upR{
+            top:calc(0% - 100px);
+            left: calc(100% - 100px);
+            background-color: white;
+            border-radius: 360px;
+        }
+
+        #downL{
+            top:calc(100% - 100px);
+            left: calc(0% - 100px);
+            background-color: white;
+            border-radius: 360px;
+        }
+
+        #downM{
+            top:calc(100% - 100px);
+            left: calc(50% - 100px);
+            background-color: white;
+            border-radius: 360px;
+        }
+
+        #downR{
+            top:calc(100% - 100px);
+            left: calc(100% - 100px);
+            background-color: white;
+            border-radius: 360px;
+        }
+
+        body{
+            overflow: hidden;
+        }
+    </style>
+</head>
+
+<body>
+<section id="topR">
+    <div class="circle"><div class="square"></div></div>
+</section>
+
+<section id="topL">
+    <div class="circle"><div class="square"></div></div>
+</section>
+
+<section id="bottomL">
+    <div class="circle"><div class="square"></div></div>
+</section>
+
+<section id="bottomR">
+    <div class="circle"><div class="square"></div></div>
+</section>
+
+<div id="upL" class="round"></div>
+<div id="upM" class="round"></div>
+<div id="upR" class="round"></div>
+<div id="downL" class="round"></div>
+<div id="downM" class="round"></div>
+<div id="downR" class="round"></div>
+<div id="squareS" class="circle">
+    <div id="roundD"></div>
+</div>
+
+</body>
+</html>
