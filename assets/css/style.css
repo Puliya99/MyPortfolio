@@ -1460,213 +1460,6 @@ footer>p{
     left: 500px;
 }
 
-
-@media all and (max-width: 412px){
-
-    #web-nav {
-        display: none;
-    }
-
-    #header > .nav-icon {
-        display: block;
-    }
-
-    #header > #nav-icon-close {
-        display: none;
-    }
-
-    header {
-        width: 100vw;
-        height: 15vw;
-        background: #083F3D;
-        position: fixed;
-        display: flex;
-        z-index: 999;
-        top: 0;
-        left: 0;
-    }
-
-    header > img {
-        position: relative;
-        width: 10vw;
-        height: 5vh;
-        top: 5px;
-        left: 20px;
-    }
-
-    #home {
-        position: relative;
-        height: 75vh;
-    }
-
-    #home>div:first-child>img {
-        position: absolute;
-        width: 300px;
-        height: 585px;
-        top: 114px;
-        left: 160px;
-    }
-
-    #home>div:nth-child(2) {
-        position: absolute;
-        left: 2vw;
-        top: 79vw;
-        font-size: 0.7em;
-    }
-
-    #hireme {
-        position: absolute;
-        top: 40vw;
-        width: 168px;
-        height: 50px;
-        font-size: 1.7em;
-        background: #083F3D;
-        color: white;
-        box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
-        cursor: pointer;
-    }
-
-    #home>div:nth-child(3) {
-        position: absolute;
-        top: 140vw;
-        left: 2vw;
-    }
-
-    #home>div:nth-child(3)>a>img {
-        margin-right: 2vw;
-        width: 40px;
-        height: 60px;
-    }
-
-    #about>div>h1 {
-        width: fit-content;
-        position: absolute;
-        bottom: 0;
-        right: 0;
-        left: 0;
-        top: 10px;
-        margin: auto;
-        color: #1F0B40;
-        font-weight: bold;
-        font-size: 2.5em;
-    }
-
-    #about>div>p {
-        top: 60px;
-        left: 25px;
-        position: absolute;
-        font-size: 1em;
-        margin: 5px;
-    }
-
-    #about>div>img {
-        top: 220px;
-        left: 80px;
-        height: 200px;
-        width: 200px;
-        position: absolute;
-        border-radius: 100%;
-    }
-
-    #about>div>#arrowPic {
-        top: 545px;
-        left: -35px;
-        position: absolute;
-        width: 450px;
-        height: 200px;
-        border-radius: 0;
-        transform: rotate(90deg);
-    }
-
-    #about>div>h4 {
-        top: 260px;
-        left: 282px;
-        position: absolute;
-        color: #1F0B40;
-        font-size: 0.7em;
-        font-family: Arial;
-    }
-
-
-    #about>div>h5 {
-        top: 282px;
-        left: 283px;
-        position: absolute;
-        color: white;
-        -webkit-text-stroke: 1px #1F0B40;
-        font-size: 0.7em;
-        font-family: Arial;
-    }
-
-    #about>div>a {
-        top: 538px;
-        left: 290px;
-        position: absolute;
-        text-decoration: none;
-        color: black;
-        font-size: 14px;
-        font-weight: bold;
-        font-family: Arial;
-    }
-
-    #about>div>#educationPic {
-        top: 520px;
-        left: 360px;
-        position: absolute;
-        width: 50px;
-        height: 50px;
-    }
-
-
-    #about>div>#skillPic {
-        top: 640px;
-        left: 0px;
-        position: absolute;
-        width: 50px;
-        height: 50px;
-    }
-
-    #about>div>#skillA {
-        top: 660px;
-        left: 50px;
-        position: absolute;
-        text-decoration: none;
-        color: black;
-        font-size: 14px;
-        font-weight: bold;
-        font-family: Arial;
-    }
-
-    #about>div>#experiencePic {
-        top: 915px;
-        left: 164px;
-        position: absolute;
-        width: 50px;
-        height: 50px;
-    }
-
-    #about>div>#experienceA {
-        top: 870px;
-        left: 160px;
-        position: absolute;
-        text-decoration: none;
-        color: black;
-        font-size: 14px;
-        font-weight: bold;
-        font-family: Arial;
-    }
-
-    #educationSec>div>h4 {
-        top: 100px;
-        left: 10px;
-        position: absolute;
-        color: #1F0B40;
-        font-size: 18px;
-        font-family: Arial;
-    }
-
-}
-
 @media all and (max-width: 768px){
     header {
         width: 100vw;
@@ -2354,7 +2147,7 @@ footer>p{
         flex-direction: column;
         align-items: center;
         padding: 46px;
-        height: 65vh;
+        height: 68vh;
         width: 110vw;
         top: 335px;
         left: -12px;
@@ -2389,7 +2182,7 @@ footer>p{
         box-shadow: 0 0 3px -7px black inset;
         user-select: none;
         left: -27px;
-        top: -30px;
+        top: -5px;
         position: relative;
     }
 
@@ -2629,3 +2422,1013 @@ footer>p{
         height: 47px;
     }
 }
+
+
+@media all and (max-width: 430.40px) {
+    header {
+        width: 100vw;
+        height: 85px;
+        background: #083F3D;
+        position: fixed;
+        display: flex;
+        z-index: 999;
+        top: 0;
+        left: 0;
+    }
+
+    header > img {
+        position: relative;
+        width: 10vw;
+        height: 7vh;
+        top: 6px;
+        left: 25px;
+    }
+
+    #web-nav > a {
+        top: 40px;
+        left: 49px;
+        position: relative;
+        font-size: 1.5em;
+        color: white;
+        text-decoration: none;
+        font-weight: 550;
+        margin-left: 30px;
+    }
+
+    #home {
+        position: relative;
+        height: 932px;
+    }
+
+    #home > div:first-child > img {
+        position: absolute;
+        width: 315px;
+        height: 800px;
+        top: 190px;
+        left: 105px;
+    }
+
+    .images {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        bottom: 0;
+        right: -200px;
+    }
+
+    #home > div:nth-child(2) {
+        position: absolute;
+        left: 2vw;
+        top: 105vw;
+        font-size: 0.7em;
+    }
+
+    #hireme {
+        position: absolute;
+        top: 55vw;
+        width: 140px;
+        height: 50px;
+        font-size: 1.1em;
+        background: #083F3D;
+        color: white;
+        box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+        cursor: pointer;
+    }
+
+    #home > div:nth-child(3) {
+        position: absolute;
+        top: 190vw;
+        left: 4vw;
+    }
+
+    #home > div:nth-child(3) > a > img {
+        margin-right: 2vw;
+        width: 35px;
+        height: 60px;
+    }
+
+    #about {
+        position: relative;
+        height: 932px;
+    }
+
+    #about > div > h1 {
+        width: fit-content;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        top: 100px;
+        margin: auto;
+        color: #1F0B40;
+        font-weight: bold;
+        font-size: 2.5em;
+    }
+
+    #about > div > p {
+        top: 155px;
+        left: 0px;
+        position: absolute;
+        font-size: 1em;
+        margin: 5px;
+    }
+
+    #about > div > img {
+        top: 300px;
+        left: 98px;
+        height: 185px;
+        width: 185px;
+        position: absolute;
+        border-radius: 100%;
+    }
+
+    #about > div > #arrowPic {
+        top: 550px;
+        left: 30px;
+        position: absolute;
+        width: 330px;
+        height: 200px;
+        border-radius: 0;
+        transform: rotate(90deg);
+    }
+
+    .typing > h4 {
+        top: 365px;
+        left: 290px;
+        position: absolute;
+        color: #1F0B40;
+        font-size: 0.6em;
+        font-family: Arial;
+    }
+
+
+    .typing > h5 {
+        top: 380px;
+        left: 290px;
+        position: absolute;
+        color: white;
+        -webkit-text-stroke: 0.7px #1F0B40;
+        font-size: 0.6em;
+        font-family: Arial;
+    }
+
+    #about > div > a {
+        top: 570px;
+        left: 295px;
+        position: absolute;
+        text-decoration: none;
+        color: black;
+        font-size: 13px;
+        font-weight: bold;
+        font-family: Arial;
+    }
+    #about > div > #educationPic {
+        top: 555px;
+        left: 360px;
+        position: absolute;
+        width: 50px;
+        height: 50px;
+    }
+
+    #about > div > #skillPic {
+        top: 640px;
+        left: 5px;
+        position: absolute;
+        width: 50px;
+        height: 50px;
+    }
+    #about > div > #skillA {
+        top: 661px;
+        left: 60px;
+        position: absolute;
+        text-decoration: none;
+        color: black;
+        font-size: 13px;
+        font-weight: bold;
+        font-family: Arial;
+    }
+
+    #about > div > #experiencePic {
+        top: 860px;
+        left: 172px;
+        position: absolute;
+        width: 50px;
+        height: 50px;
+    }
+
+    #about > div > #experienceA {
+        top: 815px;
+        left: 170px;
+        position: absolute;
+        text-decoration: none;
+        color: black;
+        font-size: 13px;
+        font-weight: bold;
+        font-family: Arial;
+    }
+
+    #educationSec {
+        position: relative;
+        height: 932px;
+    }
+
+    #educationSec > div > h4 {
+        top: 130px;
+        left: 20px;
+        position: absolute;
+        color: #1F0B40;
+        font-size: 20px;
+        font-family: Arial;
+    }
+
+    #isipathana {
+        top: 820px;
+        left: 10px;
+        position: absolute;
+        width: 100px;
+        height: 100px;
+    }
+
+    #educationSec > div > #yearone {
+        top: 825px;
+        left: 115px;
+        transform: rotate(270deg);
+        position: absolute;
+        color: black;
+        font-size: 16px;
+    }
+
+    #aquinas {
+        top: 665px;
+        left: 10px;
+        position: absolute;
+        width: 100px;
+        height: 100px;
+    }
+
+    #educationSec > div > #yeartwo {
+        top: 665px;
+        left: 115px;
+        transform: rotate(-90deg);
+        position: absolute;
+        color: black;
+        font-size: 16px;
+    }
+
+    #wijeya {
+        top: 504px;
+        left: 10px;
+        position: absolute;
+        width: 100px;
+        height: 100px;
+    }
+
+    #educationSec > div > #yearthree {
+        top: 515px;
+        left: 115px;
+        transform: rotate(270deg);
+        position: absolute;
+        color: black;
+        font-size: 16px;
+    }
+
+    #japura {
+        top: 362px;
+        left: 10px;
+        position: absolute;
+        width: 100px;
+        height: 100px;
+    }
+
+    #educationSec > div > #yearfour {
+        top: 365px;
+        left: 115px;
+        transform: rotate(270deg);
+        position: absolute;
+        color: black;
+        font-size: 16px;
+    }
+
+    #ijse {
+        top: 200px;
+        left: 10px;
+        position: absolute;
+        width: 100px;
+        height: 100px;
+    }
+
+    #educationSec > div > #yearfive {
+        top: 205px;
+        left: 115px;
+        transform: rotate(-90deg);
+        position: absolute;
+        color: black;
+        font-size: 16px;
+    }
+
+    #educationSec > div > #arrow {
+        top: 511px;
+        left: -180px;
+        width: 750px;
+        height: 100px;
+        position: absolute;
+        transform: rotate(270deg);
+    }
+
+    #educationSec > div > #yearsix {
+        top: 829px;
+        left: 235px;
+        transform: rotate(270deg);
+        color: black;
+        font-size: 16px;
+        position: absolute;
+    }
+
+    #educationSec > div > #yearseven {
+        top: 665px;
+        left: 235px;
+        transform: rotate(270deg);
+        color: black;
+        font-size: 16px;
+        position: absolute;
+    }
+
+    #educationSec > div > #yeareight {
+        top: 513px;
+        left: 235px;
+        transform: rotate(270deg);
+        color: black;
+        font-size: 16px;
+        position: absolute;
+    }
+
+    #educationSec > div > #yearnine {
+        top: 365px;
+        left: 235px;
+        transform: rotate(-90deg);
+        color: black;
+        font-size: 16px;
+        position: absolute;
+    }
+
+    #educationSec > div > #yearten {
+        top: 205px;
+        left: 225px;
+        color: black;
+        font-size: 16px;
+        position: absolute;
+        transform: rotate(270deg);
+    }
+
+    .card {
+        background: white;
+        width: 138px;
+        height: 100px;
+        padding: 3px;
+        position: relative;
+        border-radius: 6px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        display: flex;
+        font-size: 0.9em;
+        color: rgb(88 199 250 / 0%);
+        cursor: pointer;
+        font-family: cursive;
+    }
+
+    #schoolAbout {
+        top: 818px;
+        left: 265px;
+        position: absolute;
+        padding: 10px;
+    }
+
+    #aquinasCollege {
+        top: 665px;
+        left: 265px;
+        position: absolute;
+        padding: 10px;
+    }
+
+    span.ref {
+        top: -60px;
+        left: 0px;
+        position: absolute;
+    }
+
+    #wijeyagraphic {
+        top: 510px;
+        left: 265px;
+        position: absolute;
+        padding: 10px;
+    }
+
+    #japuraUni {
+        top: 360px;
+        left: 265px;
+        position: absolute;
+        padding: 10px;
+    }
+
+    #ijsePanadura {
+        top: 205px;
+        left: 265px;
+        position: absolute;
+        padding: 10px;
+    }
+
+    #skillsec {
+        position: relative;
+        height: 932px;
+    }
+
+    #skillsec > div > h4 {
+        top: 130px;
+        left: 20px;
+        position: absolute;
+        color: #1F0B40;
+        font-size: 22px;
+        font-family: Arial;
+    }
+
+    #skillsec > div > #skillone {
+        top: 220px;
+        left: 15px;
+        width: 50px;
+        height: 50px;
+        position: absolute;
+    }
+
+    #skillsec > div > #skilltwo {
+        top: 220px;
+        left: 80px;
+        width: 50px;
+        height: 50px;
+        position: absolute;
+    }
+
+    #skillsec > div > #skillthree {
+        top: 220px;
+        left: 140px;
+        width: 50px;
+        height: 50px;
+        position: absolute;
+    }
+
+    #skillsec > div > #skillfoure {
+        top: 220px;
+        left: 190px;
+        width: 50px;
+        height: 50px;
+        position: absolute;
+    }
+
+    #skillsec > div > #skillfive {
+        top: 220px;
+        left: 245px;
+        width: 50px;
+        height: 50px;
+        position: absolute;
+    }
+
+    #skillsec > div > #skillsix {
+        top: 220px;
+        left: 305px;
+        width: 50px;
+        height: 50px;
+        position: absolute;
+    }
+
+    #skillsec > div > #skillseven {
+        top: 220px;
+        left: 360px;
+        width: 50px;
+        height: 50px;
+        position: absolute;
+    }
+
+    #skillsec > div > #skilleight {
+        top: 350px;
+        left: 15px;
+        width: 50px;
+        height: 50px;
+        position: absolute;
+    }
+
+    #skillsec > div > #skillnine {
+        top: 350px;
+        left: 80px;
+        width: 50px;
+        height: 50px;
+        position: absolute;
+    }
+
+    #skillsec > div > #skillten {
+        top: 350px;
+        left: 140px;
+        width: 50px;
+        height: 50px;
+        position: absolute;
+    }
+
+    #skillsec > div > #skilleleven {
+        top: 350px;
+        left: 190px;
+        width: 50px;
+        height: 50px;
+        position: absolute;
+    }
+
+    #skillsec > div > #skilltowell {
+        top: 350px;
+        left: 245px;
+        width: 50px;
+        height: 50px;
+        position: absolute;
+    }
+
+    #skillsec > div > #skillthirty {
+        top: 350px;
+        left: 305px;
+        width: 50px;
+        height: 50px;
+        position: absolute;
+    }
+
+    #skillsec > div > #skillfourty {
+        top: 350px;
+        left: 360px;
+        width: 50px;
+        height: 50px;
+        position: absolute;
+    }
+
+    #skillsec > div > #experience {
+        top: 450px;
+        left: 20px;
+        position: absolute;
+        color: #1F0B40;
+        font-size: 22px;
+        font-family: Arial;
+    }
+
+    #sarvodaya {
+        top: 668px;
+        left: 10px;
+        width: 100px;
+        height: 100px;
+        position: absolute;
+    }
+
+    #skillsec > div > #workArrow {
+        top: 685px;
+        left: -18px;
+        width: 370px;
+        transform: rotate(90deg);
+        position: absolute;
+    }
+
+    #skillsec > div > #date {
+        top: 670px;
+        left: 108px;
+        font-size: 16px;
+        color: black;
+        transform: rotate(270deg);
+        position: absolute;
+    }
+
+    #skillsec > div > #dateTwo {
+        top: 668px;
+        left: 199px;
+        font-size: 16px;
+        color: black;
+        position: absolute;
+        transform: rotate(270deg);
+    }
+
+    #skillsec > div > #work {
+        width: 150px;
+        height: 170px;
+        top: 635px;
+        left: 240px;
+        position: absolute;
+        padding: 7px;
+        font-size: 13px;
+    }
+
+    #refone {
+        position: absolute;
+        top: -23px;
+        left: 1px;
+    }
+
+    #serviceSec {
+        position: relative;
+        height: 932px;
+    }
+
+    #service {
+        width: fit-content;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        top: 110px;
+        margin: auto;
+        color: #1F0B40;
+        font-weight: bold;
+        font-size: 35px;
+    }
+
+    #heading {
+        top: 140px;
+        left: 0px;
+        position: absolute;
+        font-size: 1em;
+    }
+
+    .wrapper {
+        position: relative;
+        top: 230px;
+        width: 100%;
+        height: 70%;
+        padding: 0px;
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        gap: 45px;
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+
+    .cards {
+        position: relative;
+        width: 250px;
+        height: 150px;
+        background: #000;
+        border-radius: 18px;
+        overflow: hidden;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+        margin: -20px;
+        left: 106px;
+        top: 7px;
+    }
+
+    #workSec {
+        position: relative;
+        height: 932px;
+    }
+
+    #assignment {
+        width: fit-content;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        top: 130px;
+        margin: auto;
+        color: #1F0B40;
+        font-weight: bold;
+        font-size: 35px;
+    }
+
+    #workSec > div > img {
+        top: 260px;
+        left: 190px;
+        position: absolute;
+    }
+
+    #workSec > div > p {
+        top: 170px;
+        left: 0px;
+        position: absolute;
+        font-size: 1em;
+    }
+
+    #complete {
+        top: 275px;
+        left: 145px;
+        position: absolute;
+        font-size: 1em;
+    }
+
+    #number {
+        top: 295px;
+        left: 208px;
+        position: absolute;
+        font-size: 1em;
+    }
+
+    #hr {
+        width: 100%;
+        top: 350px;
+        position: absolute;
+        text-align: left;
+        margin-left: 0;
+    }
+
+    .page-wrapper {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 46px;
+        height: 95vh;
+        width: 127vw;
+        top: 337px;
+        left: -65px;
+    }
+
+    .page {
+        position: absolute;
+        display: flex;
+        top: 20px;
+        left: 24px;
+        height: calc(100% - 40px);
+        width: calc(100% - 40px);
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .assignPic {
+        width: 205px;
+        height: 141px;
+    }
+
+    .page .item {
+        box-shadow: 0 0 15px -12px rgb(0 0 0 / 21%), 0 0 30px -21px rgb(61 14 14 / 44%) inset;
+        height: calc((100% - 252px) / 2);
+        width: calc((100% - 90px) / 3);
+        margin-right: 20px;
+        margin-bottom: 20px;
+        opacity: 0;
+        pointer-events: none;
+        z-index: 1;
+    }
+
+    .navigation {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        background-color: rgb(231, 231, 231);
+        height: 60px;
+        padding: 10px 60px;
+        width: 84%;
+        max-width: 991px;
+        box-shadow: 0 0 3px -7px black inset;
+        user-select: none;
+        left: -6px;
+        top: -12px;
+        position: relative;
+    }
+
+    #gallery {
+        position: relative;
+        height: 1024px;
+    }
+
+    #gallery > div > h1 {
+        width: fit-content;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        top: 130px;
+        margin: auto;
+        color: #1F0B40;
+        font-weight: bold;
+        font-size: 35px;
+    }
+
+    #gallery > div > p {
+        top: 175px;
+        left: 0px;
+        position: absolute;
+        font-size: 1em;
+    }
+
+    #gallery > div > hr {
+        width: 100%;
+        top: 300px;
+        position: absolute;
+        text-align: left;
+        margin-left: 0;
+    }
+
+    .gallery {
+        top: 390px;
+        left: 8px;
+        right: -52px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1.9fr);
+        grid-gap: 0rem;
+    }
+
+    .gallery-image {
+        display: block;
+        width: 61%;
+        height: 61%;
+        object-fit: cover;
+        transition: transform 400ms ease-out;
+        left: 0px;
+        /* right: 20px; */
+        top: 32px;
+        position: relative;
+    }
+
+    #contact {
+        position: relative;
+        height: 932px;
+    }
+
+    #contact > div > h1 {
+        width: fit-content;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        top: 125px;
+        margin: auto;
+        color: #1F0B40;
+        font-weight: bold;
+        font-size: 35px;
+    }
+
+    #address {
+        top: 162px;
+        left: 64px;
+        position: absolute;
+    }
+
+    #location {
+        top: 180px;
+        left: 50px;
+        width: 25px;
+        height: 25px;
+        position: absolute;
+    }
+
+    #gmail {
+        top: 210px;
+        left: 50px;
+        width: 25px;
+        height: 25px;
+        position: absolute;
+    }
+
+    #emailText {
+        top: 198px;
+        left: 100px;
+        position: absolute;
+    }
+
+    #phone {
+        top: 240px;
+        left: 50px;
+        width: 25px;
+        height: 25px;
+        position: absolute;
+    }
+
+    #phoneNumber {
+        top: 230px;
+        left: 100px;
+        position: absolute;
+    }
+
+    #contact > div > hr {
+        width: 100%;
+        top: 270px;
+        position: absolute;
+        text-align: left;
+        margin-left: 0;
+    }
+
+    .mapouter {
+        position: absolute;
+        top: 300px;
+        left: 225px;
+    }
+
+    .mapouter {
+        position: relative;
+        text-align: right;
+        width: 180px;
+        height: 520px;
+    }
+
+    .gmap_canvas {
+        overflow: hidden;
+        background: none !important;
+        width: 180px;
+        height: 520px;
+    }
+
+    .gmap_iframe {
+        width: 180px !important;
+        height: 520px !important;
+    }
+
+    #form {
+        position: absolute;
+        top: 250px;
+        left: 39px;
+    }
+
+    #emailName {
+        position: absolute;
+        left: -30px;
+        top: 105px;
+        width: 50px;
+    }
+
+    #emailInput {
+        position: absolute;
+        left: 35px;
+        top: 97px;
+        width: 145px;
+        height: 40px;
+    }
+
+    #nameLable {
+        position: absolute;
+        top: 175px;
+        left: -30px;
+        width: 50px;
+    }
+
+    #nameInput {
+        position: absolute;
+        top: 170px;
+        left: 35px;
+        width: 145px;
+        height: 40px;
+    }
+
+    #subjectLable {
+        position: absolute;
+        top: 240px;
+        left: -30px;
+    }
+
+    #subjectInput {
+        position: absolute;
+        top: 230px;
+        left: 35px;
+        width: 145px;
+        height: 40px;
+    }
+
+    #messageLable {
+        position: absolute;
+        top: 310px;
+        left: -30px;
+    }
+
+    #message {
+        position: absolute;
+        top: 300px;
+        left: 35px;
+        width: 145px;
+        height: 230px;
+    }
+
+    #btnSend {
+        position: absolute;
+        background: #083F3D;
+        color: #ffffff;
+        top: 550px;
+        left: 70px;
+        width: 100px;
+        height: 30px;
+        box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+        cursor: pointer;
+    }
+
+    footer {
+        width: 100vw;
+        height: 16vw;
+        background: #083F3D;
+        display: flex;
+        z-index: 999;
+        bottom: 0px;
+        left: 0;
+    }
+
+    footer > p {
+        position: absolute;
+        left: 100px;
+    }
+
+    #footerImg {
+        position: absolute;
+        left: 29px;
+        top: 6px;
+        height: 47px;
+    }
+}
+
+
