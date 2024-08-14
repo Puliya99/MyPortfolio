@@ -17,33 +17,45 @@
     <img src="assets/img/Spinner-1s-200px.gif" alt="linkedin">
 </div>
 <header id="header">
-        <img src="assets/img/logo.png" alt="logo">
-        <nav id="web-nav">
-                <a href="#home" id="homeClick"><b>Home</b></a>
-                <a href="#about" id="aboutClick"><b>About</b></a>
-                <a href="#serviceSec" id="serviceClick"><b>Service</b></a>
-                <a href="#workSec" id="workClick"><b>Work</b></a>
-                <a href="#gallery" id="galleryClick"><b>Gallery</b></a>
-                <a href="#contact" id="contactClick"><b>Contact</b></a>
-        </nav>
-
-        <div id="nav-icon-open" class="nav-icon">
-            <i class="fa-solid fa-bars"></i>
+    <img src="assets/img/logo.png" alt="logo">
+    <nav id="web-nav">
+        <a href="#home" id="homeClick"><b>Home</b></a>
+        <a href="#about" id="aboutClick"><b>About</b></a>
+        <a href="#serviceSec" id="serviceClick"><b>Service</b></a>
+        <div class="dropdown">
+            <a id="workClick" class="dropbtn"><b>Work</b> <span class="arrow">&#9660;</span></a>
+            <div class="dropdown-content">
+                <a href="#workSec">Assignment</a>
+                <a href="#projectSec">Project</a>
+            </div>
         </div>
-        <div id="nav-icon-close" class="nav-icon">
-            <i class="fa-solid fa-xmark"></i>
-        </div>
+        <a href="#gallery" id="galleryClick"><b>Gallery</b></a>
+        <a href="#contact" id="contactClick"><b>Contact</b></a>
+    </nav>
 
-        <nav id="mob-nav">
-            <ul>
-                <a href="#home"><li id="homeLink">Home</li></a>
-                <a href=#about><li id="aboutLink">About</li></a>
-                <a href="#serviceSec"><li id="serviceLink">Service</li></a>
-                <a href="#workSec"><li id="workLink">Work</li></a>
-                <a href="#gallery"><li id="galleryLink">Gallery</li></a>
-                <a href="#contact"><li id="contactLink">Contact</li></a>
-            </ul>
-        </nav>
+    <div id="nav-icon-open" class="nav-icon">
+        <i class="fa-solid fa-bars"></i>
+    </div>
+    <div id="nav-icon-close" class="nav-icon">
+        <i class="fa-solid fa-xmark"></i>
+    </div>
+
+    <nav id="mob-nav">
+        <ul>
+            <li><a href="#home" id="homeLink">Home</a></li>
+            <li><a href="#about" id="aboutLink">About</a></li>
+            <li><a href="#serviceSec" id="serviceLink">Service</a></li>
+            <li class="dropdown">
+                <a href="" id="workLink" class="dropbtn">Work <span class="arrow">&#9660;</span></a>
+                <ul class="dropdown-content">
+                    <li><a href="#workSec">Assignment</a></li>
+                    <li><a href="#projectSec">Project</a></li>
+                </ul>
+            </li>
+            <li><a href="#gallery" id="galleryLink">Gallery</a></li>
+            <li><a href="#contact" id="contactLink">Contact</a></li>
+        </ul>
+    </nav>
 </header>
 
 <section id="home">
@@ -351,6 +363,92 @@
         </div>
     </div>
 </section>
+<section id="projectSec">
+    <div>
+        <h1>Project</h1>
+        <p data-aos="zoom-out">
+            I have successfully completed a range of projects that showcase my skills in different technologies and platforms. My portfolio highlights my ability to design, develop, and deploy robust applications, leveraging various programming languages, frameworks, and tools. Below is an overview of my key projects
+        </p>
+        <div class="project">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="project-image">
+                        <div class="hovereffect">
+                            <img class="img-responsive" src="assets/img/project1.png" alt="Project 1">
+                            <div class="overlay">
+                                <h2>Shoe Shop Management System</h2>
+                                <a class="info" href="https://github.com/Puliya99/Shoe-Shop-Management-System">Github Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4">
+                    <div class="project-image">
+                        <div class="hovereffect">
+                            <img class="img-responsive" src="assets/img/project2.png" alt="Project 2">
+                            <div class="overlay">
+                                <h2>Hostel Management System</h2>
+                                <a class="info" href="https://github.com/Puliya99/Hostel_Management_System">Github Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4">
+                    <div class="project-image">
+                        <div class="hovereffect">
+                            <img class="img-responsive" src="assets/img/project3.png" alt="Project 3">
+                            <div class="overlay">
+                                <h2>live Chat Group</h2>
+                                <a class="info" href="https://github.com/Puliya99/liveChatGroup">Github Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div><!--end of project row 1-->
+            
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="project-image">
+                        <div class="hovereffect">
+                            <img class="img-responsive" src="assets/img/project4.png" alt="Project 4">
+                            <div class="overlay">
+                                <h2>Woodwork Management System</h2>
+                                <a class="info" href="https://github.com/Puliya99/WoodworkManagementSystem">Github Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end project 4-->
+                
+                <div class="col-md-4">
+                    <div class="project-image">
+                        <div class="hovereffect">
+                            <img class="img-responsive" src="assets/img/project5.png" alt="Project 5">
+                            <div class="overlay">
+                                <h2>The Connect-4 Game </h2>
+                                <a class="info" href="https://github.com/Puliya99/connect-four-game-assignment">Github Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end project 5-->
+                
+                <div class="col-md-4">
+                    <div class="project-image">
+                        <div class="hovereffect">
+                            <img class="img-responsive" src="assets/img/project6.png" alt="Project 6">
+                            <div class="overlay">
+                                <h2>GDSE MARKS MANAGEMENT SYSTEM</h2>
+                                <a class="info" href="https://github.com/Puliya99/Puliya99-GDSE-MARKS-MANAGEMENT-SYSTEM">Github Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--end project 6-->
+            </div><!--end of project row 2-->
+        </div>
+    </div>
+</section>
+
 <section id="gallery">
     <div>
         <h1>Gallery</h1>
